@@ -1,0 +1,140 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: #283747;
+}
+
+.container-all{
+  width: 100vw;
+  min-height: 100vh;
+  height: max-content;
+  background-color: #283747;
+
+}
+
+.home-wrapper{
+  width: 500px;
+  height: 400px;
+  background-color: black;
+}
+
+.button{
+  width: 130px;
+  height: 45px;
+  font-size: 18px;
+  margin-top: 35%;
+  margin-left: 17%;
+  border-radius: 10px;
+  border:none;
+  box-shadow: 0px 0px 5px white;
+}
+
+
+/*admin home*/
+
+.title{
+  text-align: center;
+  background-color: black;
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+.blog-item{
+  margin:10px auto;
+  width: 600px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.blog-name{
+  width: 70%;
+  font-size: 1.4rem;
+  padding-left:10px;
+}
+
+.edit-button{
+  width: 70px;
+  height: 40px;
+  background: green;
+  border: none;
+  color: white;
+  font-size: 17px;
+}
+.delet-button{
+  width: 70px;
+  height: 40px;
+  background: red;
+  margin-left: 5px;
+  border: none;
+  color: white;
+  font-size: 17px;
+}
+
+.add-blog-btn{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border:none;
+  font-size: 18px;
+  display: block;
+  margin:30px auto;
+  background-color: #24a0ed;
+  color: white;
+}
+
+.title-input{
+  width: 600px;
+  height: 50px;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.719);
+}
+
+.content-input{
+  width: 600px;
+  height: 400px;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.644);
+
+}
+
+/* comment wrapper*/
+
+.comment-wrapper{
+  width: 600px;
+  height: max-content;
+  min-height: 50px;
+  background-color: rgba(255, 255, 255, 0.644);
+  display: block;
+  margin:5px auto;
+}
+
+.comment-area{
+  margin-top: 40px;
+}
+
+.back{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border:none;
+  margin-top: 10px;
+  font-size: 18px;
+  display: block;
+  background-color: #24a0ed;
+  color: white;
+
+}
